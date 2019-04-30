@@ -1,0 +1,23 @@
+.small-banner {
+    height: 12em;
+}
+
+.itemized {
+    margin-bottom: 1em;
+}
+
+.itemized-s {
+    margin-bottom: 0.5em;
+}
+
+.image-no-overlay {
+    position: relative;
+    margin: 0 0 2em 0;
+    border: 0;
+    display: block;
+}
+
+.image-no-overlay img {
+    display: block;
+    width: 100%;
+}
