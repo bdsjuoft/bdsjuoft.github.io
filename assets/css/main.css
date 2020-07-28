@@ -2312,6 +2312,7 @@ input, select, textarea {
 			right: 1.5em;
 			text-transform: uppercase;
 			top: 0.75em;
+			padding-left: 250px;
 		}
 
 			#header nav ul {
@@ -2713,7 +2714,9 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				background-attachment: fixed;
+				background-attachment: fixed;	
+				background-size: contain;
+				padding: 12em;		
 			}
 
 		/* CTA */
@@ -2788,7 +2791,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				background-size: cover;
+				/*background-size: cover;*/
 			}
 
 		/* Main */
@@ -2893,6 +2896,7 @@ input, select, textarea {
 
 			#banner {
 				margin: 0;
+				padding: 10em;
 			}
 
 		/* Wrapper */
@@ -3239,8 +3243,11 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				background-size: cover;
-				padding: 12em 0;
+				background-size: contain;
+				padding-top: 8em;
+				padding-bottom: 3em;
+				padding-left: 0;
+				padding-right: 0;
 			}
 
 				#banner .inner {
@@ -3313,4 +3320,10 @@ input, select, textarea {
 				height: 34px;
 			}
 
+	}
+
+	@media screen and (max-width: 360px) {
+		#banner {
+			padding-bottom: 2em;
+		}
 	}
