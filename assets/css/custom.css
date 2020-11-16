@@ -6,8 +6,22 @@
     margin-bottom: 1em;
 }
 
+.itemized-strong {
+    font-size: large;
+    font-weight: bold;
+}
+
 .itemized-s {
     margin-bottom: 0.5em;
+}
+
+.itemized-not-strong {
+    font-size: small;
+}
+
+.itemized-block {
+    border-bottom: 1px solid;
+    border-color: #cccccc;
 }
 
 .image-no-overlay {
