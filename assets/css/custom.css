@@ -26,6 +26,10 @@
     
 }
 
+.force-margin-top {
+    margin-top: 2em;
+}
+
 .image-no-overlay {
     position: relative;
     margin: 0 0 2em 0;
