@@ -1,0 +1,117 @@
+h1.aij {
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    color: #141729;
+    text-transform: none;
+}
+
+.article-wrapper.aij {
+    padding: 3em;
+    background: #FCFCFC;
+}
+
+body.aij {
+    background:#FCFCFC;
+}
+
+.vertical-tabs.aij {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1em 0  2em 0;
+}
+
+/* Style the buttons that are used to open the tab content */
+.vertical-tabs.aij button {
+    font-family: "Encode Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #A0A4FF;
+    padding: 4px 24px;
+    
+    /* overwride template button css */
+    border: none;
+    align-items: flex-start;
+    min-width: 0;
+    text-transform: none;
+    display: block;
+  }
+  
+  /* Change background color of buttons on hover */
+  .vertical-tabs.aij button:hover {
+    background: #EFF0F6;
+    color: #0048E9;
+    border-radius: 24px;
+  }
+  
+  /* Create an active/current tablink class */
+  .vertical-tabs.aij button.active {
+    background: linear-gradient(114.44deg, #9328E2 0%, #3A7EE4 100%);
+    border-radius: 24px;
+    color: #FCFCFC;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+  /* people card styles */
+  .card-people-box {
+    width: 240px;
+  }
+
+  .card-photo-frame {
+    border: none;
+  }
+
+  .card-photo-frame:hover {
+    text-decoration: none;
+  }
+
+  .card-photo {
+    width: 100%;
+    clip-path: circle(120px at center);
+  }
+
+  .card-people-title {
+    margin: 16px 0;
+    text-align: center;
+  }
+
+  .card-people-title a {
+    font-family: "Encode Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    color: #5258FF;
+    border: none;
+    margin: auto;
+    width: 100%;
+  }
+
+  .card-people-other {
+    font-family: "Encode Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color:#A1A6BD;
+
+  }
